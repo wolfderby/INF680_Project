@@ -1,0 +1,9 @@
+TCP – Transmission Control Protocol 
+
+TCP offers a reliable connection-oriented service.  Together these two protocols carry most of the communications across the Internet. 
+
+TCP is a layer 4 protocol. Layer 4 protocols are responsible for the openings of connections, acknowledging the receipt of data, defines the service at the destination that should be used to handle the segments and notifying the receiver what service sent the segment. 
+
+TCP is the best choice when you want to ensure that the data is sent accurately and completely. This protocol ensures that every bit of data that is sent arrives error free, preventing documents and files from becoming corrupted. This process involves using a sliding window flow control over the logical connection. The flow control and error messages are sent through this mechanism. All these steps in the process are what ensure that exact duplication of the file occurs. 
+
+So, what uses TCP? High-level protocols that need to transmit data use TCP. These protocols include FTP (File Transfer Protocol), SSH (Secure Shell), HTTP (Hypertext Transfer Protocol, general web access) and Email messages through IMAP (Internet Message Access Protocol, POP (Post Office Protocol) and SMTP (Simple Mail Transfer Protocol) 

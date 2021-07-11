@@ -1,0 +1,7 @@
+References 
+
+Astika, Ferry & Nadhori, Isbat & Barry, Balighani. (2016). Detecting and blocking onion router traffic using deep packet inspection. 283-288. 10.1109/ELECSYM.2016.7861018. 
+
+Services and Segment structure in TCP. GeeksforGeeks. (2021, July 5). https://www.geeksforgeeks.org/services-and-segment-structure-in-tcp/. 
+
+Shaffer, Kevin 2021 Lesson 15. Personal Collection of Shaffer, Kevin, Fort Hays State University, Hays, Kansas 

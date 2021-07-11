@@ -1,0 +1,11 @@
+Sliding Window Scheme 
+
+Sliding window flow control is an efficient way to control the flow of data to a receiver. This method of flow control allows a transmitter and the receiver to agree on how many frames can be sent at one time, instead of sending one at a time and waiting for acknowledgments. It works like this: 
+
+The transmitter and the receiver make contact and agree upon how many frames can be sent and received at a time. The below example shows what happens when the agreed upon rate is 7 frames.  
+
+So, the transmitter sends the agreed upon 7 frames. Then when the receiver is ready to receive another 7 frames it will send an ACK to the transmitter letting it know it is ready. The below example shows this occurring at Frame 4 (ACK5). This means the receiver is ready for 7 more frames starting frame 5. 
+
+The transmitter knows it has already sent frames 5-7 so it does not send them again, instead it sends frames 8-11 because the receiver can only receive 7 frames and has not acknowledged anything over 4 yet.  
+
+This process will continue in this fashion until the receiver has received all the frames. If the receiver can keep up with the pace of the incoming frames it will continue to send out frequent ACK’s and the transmitter will continuously send out frames because it never fills its buffer window. 
