@@ -21,4 +21,4 @@
 
 ######run xampp apache server to fix ..."XMLHttpRequest cannot load file:///.../b.html. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome-extension-resource."
 
-######open 127.0.0.1/fancy_BurgerV2 in your browser
+######open https://wolfderby.github.io/INF680_Project/ in your browser

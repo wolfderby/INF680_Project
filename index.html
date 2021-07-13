@@ -33,36 +33,6 @@
             </div>
 
             <ul class="list-unstyled components">
-                <!--<p>Dummy Heading</p>
-                <li class="active">
-                    <a href="index.html#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="index.html#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Home 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="index.html#">About</a>
-                    <a href="index.html#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="index.html#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Page 3</a>
-                        </li>
-                    </ul>
-                </li>-->
                 <li>
                     <a id="tcp" href="index.html">TCP Header</a>
                 </li>
@@ -88,7 +58,6 @@
                     <a href="https://github.com/wolfderby/INF680_Project" class="download">GitHub Repo</a>
                 </li>
                 <li>
-                    <!--<a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>-->
                     <a href="https://fhsu.edu/" class="article">FHSU</a>
                 </li>
             </ul>
@@ -105,26 +74,6 @@
                         <span></span>
                         <span></span>
                     </button>
-                    <!--<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <svg class="svg-inline--fa fa-align-justify fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="align-justify" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-align-justify"></i> -->
-                    <!--</button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#">Page</a>
-                            </li>
-                        </ul>
-                    </div>-->
                 </div>
             </nav>
             <div id="asyncContent">
@@ -165,17 +114,15 @@
         </div>
     </div>
 
-    <!-- jQuery CDN - Slim version (=without AJAX) 
-    <script src="./index_files/jquery-3.3.1.slim.min.js.download" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-    
-<!-- jquery w/ ajax -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- jquery w/ ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Popper.JS -->
     <script src="./index_files/popper.min.js.download" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="./index_files/bootstrap.min.js.download" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
+    
+    <!-- This section could be "dry-er" but whatev's -->
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
@@ -225,7 +172,5 @@
                     $('#asyncContent').load('sliding_window_scheme.html');
                 });
             });
-        </script> 
-
-
+        </script>
 </body></html>
